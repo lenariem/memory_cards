@@ -113,6 +113,7 @@ h1 button {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 1.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,7 +133,7 @@ h1 button {
 
 .inner-card-front::after,
 .inner-card-back::after {
-  content: '\f021  Flip';
+  content: '\f021  Answer';
   font-family: 'Font Awesome 5 Free', Lato, sans-serif;
   position: absolute;
   top: 10px;
@@ -140,6 +141,10 @@ h1 button {
   font-weight: bold;
   font-size: 16px;
   color: #ddd;
+}
+
+.inner-card-back::after {
+  content: '\f021  Question';
 }
 
 .navigation {
@@ -196,4 +201,10 @@ h1 button {
   padding: 12px;
   min-width: 500px;
   max-width: 100%;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  display: none;
 }
