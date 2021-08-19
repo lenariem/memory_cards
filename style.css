@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fff;
+  background: url(./background17.png);
   display: flex;
   flex-direction: column;
   align-items: center;
